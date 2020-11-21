@@ -1,2 +1,7 @@
 *.obj
 *.tlog
+fftw-3.2.2-libs/libfftwf-3.2.2/x64/Release/libfftwf-3.2.2.pdb
+fftw-3.2.2-libs/libfftwf-3.2.2/x64/Release/libfftwf-3.2.2.log
+*.log
+*.user
+fftw-3.2.2-libs/libfftwf-3.2.2/x64/Release/libfftwf-3.2.2.vcxproj.FileListAbsolute.txt
