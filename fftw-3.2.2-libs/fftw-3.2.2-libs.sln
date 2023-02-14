@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libfftw-3.2.2", "libfftw-3.2.2\libfftw-3.2.2.vcxproj", "{D9E51F5E-12CD-4997-AE62-E1A6F62ED64B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libfftwf-3.2.2", "libfftwf-3.2.2\libfftwf-3.2.2.vcxproj", "{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}"
@@ -71,8 +73,8 @@ Global
 		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|Win32.ActiveCfg = Release|Win32
 		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|Win32.Build.0 = Release|Win32
-		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|x64.ActiveCfg = Release|Win32
-		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|x64.Build.0 = Release|Win32
+		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|x64.ActiveCfg = Release|x64
+		{F280FCD7-965B-45BE-9CE6-FB481AEDF3E9}.Release|x64.Build.0 = Release|x64
 		{BA52CAC4-61B4-4783-92A3-EF06A3EF3EC0}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
 		{BA52CAC4-61B4-4783-92A3-EF06A3EF3EC0}.Debug|Mixed Platforms.Build.0 = Debug|x64
 		{BA52CAC4-61B4-4783-92A3-EF06A3EF3EC0}.Debug|Win32.ActiveCfg = Debug|x64
@@ -176,5 +178,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1043EB7-DEA8-4112-9F67-A7E9B7B950D5}
 	EndGlobalSection
 EndGlobal
